@@ -3,7 +3,7 @@ CC = gcc
 
 # Since this is the first target, it will be executed by default.
 .PHONY: all
-all: Task1 Task2 #Task3 Task4 #include as many as you've done
+all: Task1 Task2 Task3 Task4 #include as many as you've done
 
 
 #PHONY's are just to ensure, that the rule 'clean' is used, rather then the file 'clean'
